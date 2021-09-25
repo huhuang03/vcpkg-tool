@@ -45,3 +45,13 @@ passing --disable-metrics to vcpkg on the command line,
 or by setting the VCPKG_DISABLE_METRICS environment variable.
 
 Read more about vcpkg telemetry at docs/about/privacy.md
+
+# TODO
+## Install local package.
+### how do you design the current port?
+The origin has two file vcpkg.json and portfile.cmake. I put this two file in a separate or root dict?
+
+### How about just install the current lib?
+- is vcpkg can choice the VCPKG_ROOT?
+- how to let cmake use the local port? still clone or some thing?
+- how to judge that the source is up to date?

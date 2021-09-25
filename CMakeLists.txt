@@ -39,6 +39,7 @@ project(vcpkg
     HOMEPAGE_URL "https://github.com/microsoft/vcpkg"
     LANGUAGES ${LANGUAGES}
 )
+
 include(cmake/utilities.cmake)
 
 # =============
